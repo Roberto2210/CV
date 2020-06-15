@@ -1,0 +1,391 @@
+
+header {
+    width: 100%;
+    background-color:#4c1685 ;
+    margin: 0px;
+    display: flex;
+}
+
+nav {
+    width: 50%;
+    padding: 15px 10px ;
+    background-color: #6e15c9;
+    text-align: left;
+    display: inline-block; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+
+.btn-descargarcv {
+    background-color: #6e15c9;
+    border: 1px solid #4c1685;
+    padding: 10PX;
+    margin: 10px;
+    border-radius: 4px;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    right: 25px;
+    
+}
+
+
+
+body {
+    background-color:#ffffff;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.contactos {
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration:none;
+    display: inline-block;
+    margin: 5px;
+}
+
+#telefono {
+    width: 5%;
+    display: inline-block;
+    
+}
+
+.info {
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration:none;
+    display: inline-block;
+    text-align: right;
+    margin: 5px;
+}
+
+#mensaje {
+    width: 5%;
+    display: inline-block;
+}
+
+#boton {
+    width: 100px;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: #6e15c9;
+    color:#ffffff;
+    text-align: left;
+    display: inline-block;
+    border-radius: 4px;
+    border-color: #000000;
+}
+
+.perfil {
+    width: 38%;
+    background-color:#ffffff;
+    padding: 50px 43px;
+    margin: 0px;
+    display: inline-block;
+    border: 1px solid #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    vertical-align: top;
+}
+
+.nombre {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+}
+
+
+.especialidad {
+    margin: 0px;
+    font-size: 15px;
+    color: #8e8f92;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#titulo-medios {
+
+    color: #6e15c9;
+
+}
+
+#foto {
+    width: 32%;
+    text-align: left;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-5 {
+    background-color: #4c1685;
+}
+
+#linea {
+    width: 5%;
+    margin: 0px;
+    background-color: #4c1685;
+    border-top: 1px solid;
+    border-radius: 8px;
+  }
+
+.cv {
+    width: 60%;
+    padding: 50px 50px;
+    text-align: left;
+    display: inline-block;
+    background-color: #f8f9fb;
+    margin: 0px;
+    vertical-align: top;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.texto {
+    font-size: 15px;
+    color: #717171;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+
+#logo-escuela {
+    width: 10%;
+  
+    border-radius: 8px;
+    text-align: center;
+    display:inline-block;
+   margin-left: 75px;
+   margin-right: auto;
+   
+}
+
+.trabajos {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;
+}
+
+ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+    color: #8e8f92;
+}
+
+li:before {
+    content: "• ";
+    color:#6e15c9; /* or whatever color you prefer */
+}
+
+#biñeta {
+    color: #8e8f92;
+}
+
+#curriculum {
+    display: inline-block;
+}
+
+#linia {
+    width: 10%;
+    background-color: #6e15c9;
+}
+
+#titulo-cv {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+}
+
+.sub-titulos {
+    margin: 0px;
+    font-size: 15px;
+    color: #8e8f92;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sub3-titulos {
+    margin: 0px;
+    font-size: 15px;
+    color: #6e15c9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#p {
+    background-repeat:no-repeat;
+    height:30px;
+    width:30px;
+    border: 0px;
+    background-position:center;
+    background-image:url(https://image.flaticon.com/icons/svg/174/174860.svg);
+}
+
+#link {
+    background-repeat:no-repeat;
+    height:30px;
+    width:30px;
+    border: 0px;
+    margin: 10px;
+    background-position:center;
+    background-image:url(https://image.flaticon.com/icons/svg/174/174857.svg);
+
+}
+
+#instagram {
+    background-repeat:no-repeat;
+    height:30px;
+    width:30px;
+    border: 0px;
+    margin: 10px;
+    background-position:center;
+    background-image:url(https://image.flaticon.com/icons/svg/174/174855.svg);
+}
+
+#facebook {
+    background-repeat:no-repeat;
+    height:30px;
+    width:30px;
+    border: 0px;
+    margin: 10px;
+    background-position:center;
+    background-image:url(https://image.flaticon.com/icons/svg/174/174848.svg);
+}
+
+#twiter {
+    background-repeat:no-repeat;
+    height:30px;
+    width:30px;
+    border: 0px;
+    margin: 10px;
+    background-position:center;
+    background-image:url(https://image.flaticon.com/icons/svg/174/174876.svg);
+}
+
+/*--------------------------------------------------------------------------------- */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: 25px;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text 
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+*/
+
+
+
+.btn-slides {
+    width: 100%;
+    bottom: 8px;
+    padding: 8px 12px;
+    font-size: 15px;
+    border-radius: 4px;
+    position: absolute ;
+    text-align: center;
+    color: #ffffff;
+    background-color: #6e15c9;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+@media screen and (max-width:600px){
+
+    header {
+        width: 100%;
+    }
+
+    nav, .btn-descargarcv{
+        display: none;
+    }
+
+    .perfil {
+        width: 100%;;
+    }
+
+    .cv {
+        width: 100%;
+    }
+
+}
